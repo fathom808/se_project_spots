@@ -65,7 +65,7 @@
   opacity: 1;
 }
 
-.profile__edit-btn_icon {
+.profile__pencil-icon {
   margin-top: auto;
   padding: 0;
   height: 16px;
@@ -88,7 +88,7 @@
   opacity: 0.8;
 }
 
-.profile__add-btn_icon {
+.profile__plus-icon {
   width: 12px;
   height: 12px;
   margin: auto 8px;
