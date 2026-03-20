@@ -3,7 +3,8 @@
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 1rem;
+  margin-bottom: 12px;
+  border-radius: 8px;
 }
 
 .card__content {
@@ -13,7 +14,7 @@
 }
 
 .card__title {
-  width: 353px;
+  max-width: 353px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -24,7 +25,7 @@
 }
 
 .card__like-btn {
-  background-image: url(/images/heart.svg);
+  background-image: url(./images/heart.svg);
   height: 20px;
   width: 23px;
   border: none;
@@ -40,5 +41,9 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    max-width: 235px;
   }
 }
