@@ -95,6 +95,8 @@
   font-size: 20px;
   line-height: 100%;
   color: #212121;
+  height: 52px;
+  box-sizing: border-box;
 }
 
 .modal__input::placeholder {
