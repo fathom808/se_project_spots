@@ -51,6 +51,6 @@ function handleNewPostSubmit(evt) {
   newPostModal.classList.remove("modal_is-opened");
 }
 
-editProfileForm.addEventListener("submit", hanleEditProfileSubmit);
+editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 newPostForm.addEventListener("submit", handleNewPostSubmit);
