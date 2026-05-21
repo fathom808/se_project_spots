@@ -131,6 +131,7 @@ function handleEditProfileSubmit(evt) {
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
   closeModal(newPostModal);
+  newPostForm.requestFullscreen();
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
@@ -146,7 +147,7 @@ newPostForm.addEventListener("submit", function (evt) {
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
 
-  addCardModal.classList.remove(".modal_is-opened");
+  addCardModal.classList.closeModal(newPostModal);
 });
 
 initialCards.forEach(function (item) {
