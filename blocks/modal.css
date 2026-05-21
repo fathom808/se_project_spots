@@ -54,8 +54,10 @@
   border-radius: 16px;
   text-align: center;
   padding: 4px 8px;
-  margin-top: 8px;
+  margin: 0;
   position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
 }
 
 .modal__close-btn {
@@ -191,12 +193,20 @@
     padding: 12px 12px;
   }
 
+  .modal__image {
+    width: 100%;
+  }
+
   .modal__title {
     margin: 0 0 24px;
   }
 
   .modal__input {
     margin: 0 0 24px;
+    font-size: 16px;
+  }
+
+  .modal__caption {
     font-size: 16px;
   }
 }
