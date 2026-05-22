@@ -128,12 +128,6 @@ function handleEditProfileSubmit(evt) {
   closeModal(editProfileModal);
 }
 
-function handleNewPostSubmit(evt) {
-  evt.preventDefault();
-  closeModal(newPostModal);
-  newPostForm.requestFullscreen();
-}
-
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 newPostForm.addEventListener("submit", function (evt) {
@@ -146,8 +140,8 @@ newPostForm.addEventListener("submit", function (evt) {
 
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
-
-  addCardModal.classList.closeModal(newPostModal);
+  closeModal(newPostModal);
+  newPostForm.reset();
 });
 
 initialCards.forEach(function (item) {
