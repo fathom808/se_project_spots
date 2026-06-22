@@ -20,3 +20,8 @@ Similar in many other ways where it is a image sharing website where you can add
 webpage deployed to GitHub pages
 
 -Deploymen link:https://fathom808.github.io/se_project_spots/
+
+##Project Pitch Video
+
+Check out FelipeSalinas-ProjectPitch-SpotsStage9 (https://www.loom.com/share/52cbfb47fc7446098d1cde1b4e231700),  where I describe my 
+ project and some challenges I faced while building it.
