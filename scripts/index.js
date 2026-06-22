@@ -113,7 +113,9 @@ modals.forEach(function (modal) {
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     const escModal = document.querySelector(".modal_is-opened");
-    closeModal(escModal);
+    if (escModal) {
+      closeModal(escModal);
+    }
   }
 });
 
